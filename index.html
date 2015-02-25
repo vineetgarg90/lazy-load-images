@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lazy Load Background Images</title>
+<style type="text/css">
+.img-box{
+	width: 600px;
+	height: 425px	;
+	border:1px solid;
+	background-color: #ccc;
+	margin:10px;
+	background-size: cover;
+}
+</style>
+</head>
+<body>
+	<h2>Lazy Load Background Images</h2>
+	<small>Background images will be loaded when container is scrolled more than 33% in viewport </small>
+
+	<h3>Usage</h3>
+	<code>
+<xmp>
+<div class="img-box lazy" data-bgimg='images/1.jpg'></div>
+</xmp>
+		$('.lazy').bglazyload();
+	</code>
+	<br>
+	<div class="img-box lazy" data-bgimg='images/1.jpg'></div>
+	<div class="img-box lazy" data-bgimg='images/2.jpg'></div>
+	<div class="img-box lazy" data-bgimg='images/4.jpg'></div>
+	<div class="img-box lazy" data-bgimg='images/5.jpg'></div>
+	<div class="img-box lazy" data-bgimg='images/6.jpg'></div>
+	<div class="img-box lazy" data-bgimg='images/7.jpg'></div>
+
+<script type="text/javascript" src='js/jquery.min.js'></script>
+<script type="text/javascript" src='js/jquery.bglazyload.js'></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.lazy').bglazyload();
+});
+
+</script>
+</body>
+</html>
