@@ -20,3 +20,4 @@ then initialise using
 ```html
 $("div.lazy").lazyload();
 ```
+<a href='http://vineetgarg90.github.io/lazy-load-images/'>View Demo</a>
