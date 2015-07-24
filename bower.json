@@ -1,0 +1,29 @@
+{
+  "name": "lazy-load-images",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vineetgarg90/lazy-load-images",
+  "authors": [
+    "vineetgarg90 <vineetgarg90@gmail.com>"
+  ],
+  "description": "Simple jquery plugin to Lazy Load Background Images",
+  "main": "jquery.bglazyload.js",
+  "keywords": [
+    "jquery",
+    "lazyload",
+    "lazy",
+    "load",
+    "background",
+    "images"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11.*"
+  }
+}
