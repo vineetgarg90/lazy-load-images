@@ -21,3 +21,8 @@ then initialise using
 $("div.lazy").lazyload();
 ```
 <a href='http://vineetgarg90.github.io/lazy-load-images/' target='_blank'>View Demo</a>
+
+##Installing Via Bower
+```html
+bower install bg-lazy-load --save-dev
+```
